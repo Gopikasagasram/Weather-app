@@ -1,0 +1,80 @@
+*{
+   margin: 0%;
+   padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    background-color: black;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width:220px ;
+    margin: 10px;
+    border:none;
+    border-radius: 30px;
+    background-color:rgb(245, 248, 248);
+    cursor: pointer;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin:10px;
+    border: none;
+    cursor: pointer;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#celsius {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#city {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+
+#main {
+    height: 400px;
+    width: 320px;
+    background:url(images/bg.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 20px 20px;
+    
+}
+
+#humidity,#windspeed{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#humidity p{
+    font-size: 25px;
+}
+
+#windspeed p{
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
